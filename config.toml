@@ -1,22 +1,60 @@
 baseURL = "https://naniz.co"
-languageCode = "en-us"
-#title = "My New Hugo Site"
+title = "Nani Ravikumar"
+
+DefaultContentLanguage = "en"
+
 theme="hello-friend-ng"
-enableRobotsTXT = true
-enableEmoji     = true
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
 canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = true
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  blogs = "/blogs/:year/:month/:title/"
 
 [author]
   name = "Narayana Ravikumar"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
 
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
-  disableRSS = true
+
+  # Metadata mostly used in document's head
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
 
   homeSubtitle = "Where the magic happens"
+
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
@@ -25,11 +63,15 @@ canonifyURLs = true
   keywords = "homepage, blog, economics, finance, development, programming, journal"
   images = [""]
 
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "blog"
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
+  themeColor = "#252627"
 
 [languages]
   [languages.en]
