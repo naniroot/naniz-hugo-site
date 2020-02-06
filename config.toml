@@ -1,0 +1,59 @@
+baseURL = "https://naniz.co"
+languageCode = "en-us"
+#title = "My New Hugo Site"
+theme="hello-friend-ng"
+enableRobotsTXT = true
+enableEmoji     = true
+canonifyURLs = true
+
+[author]
+  name = "Narayana Ravikumar"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  disableRSS = true
+
+  homeSubtitle = "Where the magic happens"
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Nani Ravikumar"
+  keywords = "homepage, blog, economics, finance, development, programming, journal"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "blog"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[languages]
+  [languages.en]
+    title = "Nani Ravikumar"
+    subtitle = "Where the magic happens"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Naniz"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"  
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "blog/"
