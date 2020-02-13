@@ -30,7 +30,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  blog = "/blog/:year/:month/:title/"
+  posts = "/posts/:year/:month/:title/"
 
 [author]
   name = "Narayana Ravikumar"
@@ -54,7 +54,7 @@ disableHugoGeneratorInject = false
   disableReadOtherPosts = false
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Nani Ravikumar"
+  description = "Homepage and blog by Narayana Ravikumar"
   keywords = "homepage, blog, economics, finance, development, programming, journal"
   images = [""]
 
@@ -62,7 +62,7 @@ disableHugoGeneratorInject = false
   justifyContent = false  # Set "text-align: justify" to .content.
 
   # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "blog"
+  contentTypeName = "posts"
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
@@ -70,14 +70,14 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    title = "Nani Ravikumar"
+    title = 'Nani Ravikumar'
     subtitle = "Where the magic happens"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Naniz"
+      logoText = "/home/Naniz>"
       logoHomeLink = "/"
     # or
     #
@@ -91,6 +91,6 @@ disableHugoGeneratorInject = false
     name       = "About"
     url        = "about/"  
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "blog/"
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
