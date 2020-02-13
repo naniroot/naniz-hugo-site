@@ -77,7 +77,7 @@ disableHugoGeneratorInject = false
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "/home/Naniz>"
+      logoText = "/home/Naniz"
       logoHomeLink = "/"
     # or
     #
