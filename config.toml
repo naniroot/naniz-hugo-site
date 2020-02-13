@@ -18,7 +18,7 @@ publishDir   = "public"
 buildDrafts  = false
 buildFuture  = false
 buildExpored = false
-canonifyURLs = true
+canonifyURLs = false
 
 enableRobotsTXT = true
 enableGitInfo   = false
@@ -30,7 +30,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  blogs = "/blogs/:year/:month/:title/"
+  blog = "/blog/:year/:month/:title/"
 
 [author]
   name = "Narayana Ravikumar"
