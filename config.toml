@@ -68,7 +68,13 @@ disableHugoGeneratorInject = false
   defaultTheme = "dark"
   themeColor = "#252627"
 
-    # Social icons
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  # Social icons
   [[params.social]]
     name = "instagram"
     url  = "https://www.instagram.com/ninja_in_pyjama_217/"
