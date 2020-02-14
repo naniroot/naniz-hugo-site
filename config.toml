@@ -79,7 +79,7 @@ disableHugoGeneratorInject = false
     [languages.en.params.logo]
       logoText = "/home/Naniz"
       logoHomeLink = "/"
-      logoCursorDisabled = true
+      logoCursorDisabled = false
     # or
     #
     # path = "/img/your-example-logo.svg"
