@@ -68,6 +68,27 @@ disableHugoGeneratorInject = false
   defaultTheme = "dark"
   themeColor = "#252627"
 
+    # Social icons
+  [[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/ninja_in_pyjama_217/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/narayanaravikumar/"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/naniroot"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/naniroot"
+
+  [[params.social]]
+    name = "facebook"
+    url  = "https://www.facebook.com/nanikumar17"
+
 [languages]
   [languages.en]
     title = 'Nani Ravikumar'
@@ -79,7 +100,7 @@ disableHugoGeneratorInject = false
     [languages.en.params.logo]
       logoText = "/home/Naniz"
       logoHomeLink = "/"
-      logoCursorDisabled = false
+      logoCursorDisabled = true
     # or
     #
     # path = "/img/your-example-logo.svg"
