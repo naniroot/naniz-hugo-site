@@ -1,7 +1,7 @@
 ---
 title: "Python FTW"
 date: 2013-09-27T14:15:17-08:00
-draft: true
+draft: false
 images:
 tags: [python, coding, xkcd, winning]
 ---
