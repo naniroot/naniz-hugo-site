@@ -2,6 +2,7 @@
 title: "Design Thinking"
 date: 2013-06-29T13:51:31-08:00
 draft: false
+tags: [design thinking, software development]
 ---
 > Revitilizing very old post from the past. Of course, my thinking has changed since then, but its always fun to open a time capsule.
 
