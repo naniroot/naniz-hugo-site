@@ -82,7 +82,8 @@ def square_print():
 ```
 This would work, will not take much memory as well. But again global variables are ugly, they act weird when threads are used and also the variable would not be protected, security and accidental modification is a concern. So, what should we do?
 
-3. We use generators. Generators were created to ease programmers woes. They very cleanly take care of situation exactly like this. This is where the **yield** command also comes into picture. A generator for the above application would look something like this.
+3. We use generators.
+Generators were created to ease programmers woes. They very cleanly take care of situation exactly like this. This is where the **yield** command also comes into picture. A generator for the above application would look something like this.
 ```python
 def square_print():
 	num = 0
@@ -96,7 +97,7 @@ for x in generator:
 ```
 This is a very clean way to program and python automatically takes care of context, it protects accidental modification, provides security to the variable, is thread safe and very neat. Python is fun ain’t it?
 
-References
+## References
 - http://stackoverflow.com/questions/231767/the-python-yield-keyword-explained
 - http://wiki.python.org/moin/Generators
 - http://www.jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/
