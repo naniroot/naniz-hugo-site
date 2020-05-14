@@ -9,7 +9,7 @@ tags: [python, coding, yeild, generators]
 
 I come across a lot gems in python. Some are easy to understand, some require more time. The best way to understand them is by working with them and using them in programs. To make the understanding stronger you can write about them. I wanted to understand the yield command better so here it is.
 
-To understand ‘yield’ you first have to understand generators, iterables and their differences. 
+To understand **yield** you first have to understand generators, iterables and their differences.
 
 ## Iterables
 
@@ -20,21 +20,23 @@ A = [1, 2, 3]
 for ch in A:
 	print ch
 ```
-> output:
-> 1
-> 2
-> 3
-
+```
+output:
+1
+2
+3
+```
 ```python
 B = [ x*x for x in range(3)]
 for x in B:
 	print x
 ```
-> output:
-> 0
-> 1
-> 4
-
+```
+output:
+0
+1
+4
+```
 ## Generators
 
 Now, these are not that well-known. Generators are also iterables, they can also be iterated on, but only once. They do not store every value in memory. An example in python would be
@@ -44,11 +46,12 @@ A = (x*x for x in range(3))
 for x in A:
 	print x
 ```
-> Output:
-> 0
-> 1
-> 4
-
+```
+Output:
+0
+1
+4
+```
 Notice that the generator uses ‘(‘ compared to a ‘[‘ of a iterable. Now, why would somebody need a generator? 
  Whenever there is a function call in python, the function continues to execute until it finds a return statement or an exception or end of context where the default “return None” is executed. After this, all the context of the function is lost like the local variables, stack frames etc. This is good for many scenarios but sometimes you would need the function to retain context, like, for example you want to
 
