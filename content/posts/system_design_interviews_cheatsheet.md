@@ -12,22 +12,22 @@ tags: [interviews, system design, coding, algorithms]
 
 ## Steps to System Design Interview 
 1. Clarify Requirements
-...* Ask lots of questions
-...* Very important step, clarify requirements.
-...* Spend good amount of time on this step
+   * Ask lots of questions
+   * Very **important** step
+   * Spend good amount of time on this step
 2. Adjust scope and state assumptions
-...* Can limit scope to simplify and explain that you will come back to it at a later time
+   * Can limit scope to **simplify** and explain that you will come back to it at a later time
 3. Back of the envelope calculations
-...* This should set upper bounds on the high level design
+   * This should set **upper bounds** on the high level design
 4. High Level Design
-...* Do drawings at this time
-...* Keep it high level and explain trade offs
-...* There is no one right answer. 
-...* Stay in scope but try to leave room for future scale and features
+   * Do drawings at this time
+   * Keep it high level and **explain trade offs**
+   * There is no one right answer
+   * Stay in scope but try to leave room for future scale and features
 5. Detailed Design
-...* Discuss failure scenarios, how redundancy is provided, bottle necks, 
-...* Discuss prevention of issues like thundering herd, hotspots, single point of failures etc
-...* Focus on security as well in this step
+   * Discuss failure scenarios, how redundancy is provided, bottle necks, 
+   * Discuss prevention of issues like **thundering herd**, **hotspots**, **single point of failures** etc
+   * Focus on **security** as well in this step
 
 ## Algorithms and their Usage 
 
