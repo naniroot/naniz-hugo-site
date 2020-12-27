@@ -104,10 +104,21 @@ Count frequency in a stream of data. Approximate algorithm similar to bloom filt
 - [Approximate counts with Hashing](https://florian.github.io/count-min-sketch/)
 
 ### Least Recently Used (LRU)
+Very popular eviction algorithm for caches or other resources.
+
+- [Implementation using doubly linked list and hash map](https://www.geeksforgeeks.org/lru-cache-implementation/)
 
 ### B-Trees
+Self balancing tree used in systems where the contents of the tree cannot completely fit in main memory. The data structure is designed to reduce amount of disk accesses. It is heavily used in MySQL to keep track of indexes.
+
+- [Intro to B-tree](https://www.geeksforgeeks.org/introduction-of-b-tree-2/)
 
 ### Merkle Tree
+Merkle tree or **hash tree** is a tree in which every leaf node is labelled with the cryptographic hash of a data block, and every non-leaf node is labelled with the cryptographic hash of the labels of its child nodes.  Hash trees can be used to verify any kind of data stored, handled and transferred in and between computers. They can help ensure that data blocks received from other peers in a peer-to-peer network are received undamaged and unaltered, and even to check that the other peers do not lie and send fake blocks.
+
+- Used in Bitcoin implementation
+- Apache Cassandra uses Merkle trees to detect inconsistencies between replicas of entire databases.
+- [Introduction to Merkle Trees](https://www.geeksforgeeks.org/introduction-to-merkle-tree/)
 
 ## Honorable Mentions
 - [HyperLogLog Algorithm for Cardinality Estimation](https://florian.github.io/count-min-sketch/)
